@@ -68,19 +68,19 @@ expressApp.post('/', (req, res) => {
     {
       if(userData[0] == "CREATE") //if the request demands an user creation then create the user
       {
-        console.log(color.yellow('New account created!') + ' Username: ' + userData[1])
+        console.log(color.yellow('New account created! ') + 'Username: ' + userData[1])
         res.send("Sucess!")
 
       } else if(userData[0] == "LOGIN") //if the request demands an login request, check the password
       {
-        console.log(color.yellow('Logged in successfully!') + ' Username: ' + userData[1])
+        console.log(color.yellow('Logged in successfully! ') + 'Username: ' + userData[1])
         res.send("Sucess!")
 
       } else if(userData[0] == "DELETE") //if the request demands an delete request, check the password
       {
         console.log(color.red('Account deleted! ') +'Username: '+ userData[1])
         res.send("Sucess!")
-        
+
       }
     }
   } else
