@@ -1,1 +1,0 @@
-{"scripts":{"test":"echo \"Error: no test specified\" && exit 1","start":"node index.js"},"version":"1.0.0","author":"Cat_Studio","description":"API for handling users requests","license":"ISC","repository":{"type":"git","url":""},"dependencies":{"cli-color":"^2.0.3","express":"^4.18.2","firebase-admin":"^11.5.0","http":"^0.0.1-security"}}
